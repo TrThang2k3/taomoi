@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>31-PS23028-Thắng</title>
+    <style>
+        .head>header
+{
+    background-size: 100% 100%;
+    background-color: black;
+    position: relative;
+    margin: 0px;
+}
+.user
+{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    width: 25%;
+    text-align: center;
+    color: white;
+    right: 100px;
+}
+.nameshop
+{
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 60px;
+    
+}
+.pay
+{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width:25%;
+    color: white;
+    padding: 0px;
+    line-height: 10px;
+}
+.pay>form
+{
+    margin-top: 5px;
+}
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .menu>ul>li {
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu>ul>li>a {
+            display: block;
+            text-decoration: none;
+            font-size: large;
+            font-variant: small-caps;
+            color: black;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+
+        .menu>ul {
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: grey;
+            text-align: center;
+        }
+
+        .menu>ul>li>a:hover {
+            text-decoration: underline;
+        }
+
+        .menu ul ul {
+            position: absolute;
+            display: none;
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 0 1px gray;
+        }
+
+        .menu>ul>li:hover>ul {
+            display: block;
+        }
+
+        .menu ul ul a {
+            display: block;
+            line-height: 30px;
+            color: black;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: large;
+            padding: 0 10px;
+            text-align: left;
+        }
+
+        .menu ul ul a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+        }
+
+        .gioithieu {
+            min-height: 500px;
+        }
+        p
+        {
+            font-size: 25px;
+        }
+        h4
+        {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <header>
+            <div class="user">
+                <a href="dangnhap.html">Đăng nhập /</a>
+                <a href="dangky.html">Đăng ký</a>
+            </div>
+            <div class="nameshop">
+                <p>KenShin Shop</p>
+            </div>
+            <div class="pay">
+                <a href="giohang.html">Giỏ hàng /</a>
+                <a href="thanhtoan.html">Thanh toán</a>
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+            </div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html"><strong>TRANG CHỦ</strong></a></li>
+                <li><a href="gioithieu.html"><strong>GIỚI THIỆU</strong></a></li>
+                <li><a href="sanpham.html"><strong>SẢN PHẨM</strong></a>
+                    <ul>
+                        <li><a href="giaynu.html"><strong>NỮ</strong></a></li>
+                        <li><a href="giaynam.html"><strong>NAM</strong></a></li>
+                        <li><a href="giaytreem.html"><strong>TRẺ EM</strong></a></li>
+                        <li><a href="phukien.html"><strong>PHỤ KIỆN KHÁC</strong></a></li>
+                    </ul>
+                </li>
+
+                <li><a href="tintuc.html"><strong>TIN TỨC</strong></a></li>
+                <li><a href="lienhe.html"><strong>LIÊN HỆ</strong></a></li>
+            </ul>
+        </nav>
+        <div class="gioithieu">
+            <center><h2>Giới thiệu</h2></center>
+            <p>Chào mừng bạn đã đến với thế giới giày tại đây bạn có thể tìm kiếm
+                <br> những đôi giày chất lượng phù hợp với
+                giá cả thị trường và đặc biết
+                <br> là phù hợp với đôi chân của bạn.Đừng chần chờ gì thêm hãy đến đặt
+                <br> ngay cho mình một đôi giày ưng í.
+            </p>
+        </div>
+        <footer>
+            <h4>Thông Tin liên hệ</h4>
+            <p>Hotline: 0789826427</p>
+            <p>Email: decede7@gmail.com</p>
+            <p>Địa chỉ: 66b Nguyễn Sỹ Sách P.15 Q.Tân Bình TP.Hồ Chí Minh</p>
+        </footer>
+        <script src="https://uhchat.net/code.php?f=003b19"></script>
+    </div>
+
+</body>
+
+</html>
